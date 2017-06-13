@@ -382,7 +382,7 @@
         '<div class="ld-header-nav" id="ld-header-nav">' +
         '<ul>' +
         '<li><a href="https://passport.ledo.com/login" target="_blank" class="ld-header-navbtn">用户中心</a></li>' +
-        '<li><a href="#" target="_blank" class="ld-header-navbtn">客户服务</a><div class="ld-header-toggle"><div class="ld-header-kf"></div></div></li>' +
+        '<li><a href="javascript:;" class="ld-header-navbtn">客户服务</a><div class="ld-header-toggle"><div class="ld-header-kf"></div></div></li>' +
         '<li><a href="javascript:;" class="ld-header-navbtn">乐道游戏目录<em></em></a><div class="ld-header-toggle"><div class="ld-header-link">'+ gameHtml +'</div><div class="ld-header-img">'+ ggHtml +'</div></div></li>' +
         '</ul>' +
         '</div>' +
@@ -417,7 +417,7 @@
         }
     }
     
-    var headerCSS = 'pub-header.css?v=' + styleVersion;
+    var headerCSS = 'http://static.ledo.com/ld_header/pub-header.css?v=' + styleVersion;
     domReady(function(){
         var hdCSS = null;
         var cssNode = document.getElementsByTagName("link")[0];
